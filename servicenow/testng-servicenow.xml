@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="service now automation" verbose="5">
+	<test thread-count="5" name="Test">
+		<parameter name="url" value="https://dev110331.service-now.com/" />
+		<classes>
+			<class name="tescases.servicenow.OrderingMobile" />
+			<class name="tescases.servicenow.CreateNewProposal" />
+			<class name="tescases.servicenow.CreateNewCaller" />
+			<class name="tescases.servicenow.FillMandateFields" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
