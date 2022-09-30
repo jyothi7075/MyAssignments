@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Leaftaps automation" duration-ms="107411" started-at="2022-09-30T10:00:02 PDT" finished-at="2022-09-30T10:01:50 PDT">
+    <groups>
+    </groups>
+    <test name="CreateLead Test" duration-ms="107411" started-at="2022-09-30T10:00:02 PDT" finished-at="2022-09-30T10:01:50 PDT">
+      <class name="com.leaftaps.ui.leads.testcases.EditLead">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leaftaps.ui.leads.testcases.EditLead@5e955596]" name="setData" is-config="true" duration-ms="0" started-at="2022-09-30T10:00:02 PDT" finished-at="2022-09-30T10:00:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.leads.testcases.EditLead@5e955596]" name="beforeMethod" is-config="true" duration-ms="8925" started-at="2022-09-30T10:01:22 PDT" finished-at="2022-09-30T10:01:31 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runEditLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.leads.testcases.EditLead@5e955596]" name="runEditLead" duration-ms="17479" started-at="2022-09-30T10:01:31 PDT" data-provider="sendData" finished-at="2022-09-30T10:01:48 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leaftaps.ui.leads.testcases.EditLead@5e955596]" name="afterMethod" is-config="true" duration-ms="1090" started-at="2022-09-30T10:01:48 PDT" finished-at="2022-09-30T10:01:50 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.leaftaps.ui.leads.testcases.EditLead -->
+      <class name="com.leaftaps.ui.leads.testcases.DeleteLead">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leaftaps.ui.leads.testcases.DeleteLead@1cab0bfb]" name="setData" is-config="true" duration-ms="1" started-at="2022-09-30T10:00:02 PDT" finished-at="2022-09-30T10:00:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.leads.testcases.DeleteLead@1cab0bfb]" name="beforeMethod" is-config="true" duration-ms="6324" started-at="2022-09-30T10:00:58 PDT" finished-at="2022-09-30T10:01:04 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runDeleteLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.leads.testcases.DeleteLead@1cab0bfb]" name="runDeleteLead" duration-ms="15153" started-at="2022-09-30T10:01:04 PDT" data-provider="sendData" finished-at="2022-09-30T10:01:19 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leaftaps.ui.leads.testcases.DeleteLead@1cab0bfb]" name="afterMethod" is-config="true" duration-ms="2447" started-at="2022-09-30T10:01:19 PDT" finished-at="2022-09-30T10:01:22 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.leaftaps.ui.leads.testcases.DeleteLead -->
+      <class name="com.leaftaps.ui.leads.testcases.CreateLead">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leaftaps.ui.leads.testcases.CreateLead@4f51b3e0]" name="setData" is-config="true" duration-ms="18" started-at="2022-09-30T10:00:02 PDT" finished-at="2022-09-30T10:00:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.leads.testcases.CreateLead@4f51b3e0]" name="beforeMethod" is-config="true" duration-ms="15802" started-at="2022-09-30T10:00:06 PDT" finished-at="2022-09-30T10:00:21 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.leads.testcases.CreateLead@4f51b3e0]" name="runCreateLead" duration-ms="13833" started-at="2022-09-30T10:00:21 PDT" data-provider="sendData" finished-at="2022-09-30T10:00:35 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leaftaps.ui.leads.testcases.CreateLead@4f51b3e0]" name="afterMethod" is-config="true" duration-ms="2512" started-at="2022-09-30T10:00:35 PDT" finished-at="2022-09-30T10:00:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.leads.testcases.CreateLead@4f51b3e0]" name="beforeMethod" is-config="true" duration-ms="5265" started-at="2022-09-30T10:00:38 PDT" finished-at="2022-09-30T10:00:43 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.ui.leads.testcases.CreateLead@4f51b3e0]" name="runCreateLead" duration-ms="12040" started-at="2022-09-30T10:00:43 PDT" data-provider="sendData" finished-at="2022-09-30T10:00:55 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leaftaps.ui.leads.testcases.CreateLead@4f51b3e0]" name="afterMethod" is-config="true" duration-ms="2468" started-at="2022-09-30T10:00:55 PDT" finished-at="2022-09-30T10:00:58 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.leaftaps.ui.leads.testcases.CreateLead -->
+    </test> <!-- CreateLead Test -->
+  </suite> <!-- Leaftaps automation -->
+</testng-results>

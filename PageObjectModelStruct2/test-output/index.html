@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Leaftaps_automation">
+              <span class="suite-name border-passed">Leaftaps automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Leaftaps_automation">
+                    <span>E:\TeatLeaf\PageObjectModelStruct2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Leaftaps_automation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Leaftaps_automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Leaftaps_automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Leaftaps_automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Leaftaps_automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Leaftaps_automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Leaftaps_automation" class="hide-methods passed suite-Leaftaps_automation"> (hide)</a> <!-- hide-methods passed suite-Leaftaps_automation -->
+                      <a href="#" panel-name="suite-Leaftaps_automation" class="show-methods passed suite-Leaftaps_automation"> (show)</a> <!-- show-methods passed suite-Leaftaps_automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Leaftaps_automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Leaftaps_automation" title="com.leaftaps.ui.leads.testcases.CreateLead" hash-for-method="runCreateLead(Demosalesmanager, crmsfa, TL, Hari, R)">runCreateLead(Demosalesmanager, crmsfa, TL, Hari, R)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Leaftaps_automation" title="com.leaftaps.ui.leads.testcases.CreateLead" hash-for-method="runCreateLead(DemoCSR, crmsfa, TL, Babu, M)">runCreateLead(DemoCSR, crmsfa, TL, Babu, M)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Leaftaps_automation" title="com.leaftaps.ui.leads.testcases.DeleteLead" hash-for-method="runDeleteLead(Demosalesmanager, crmsfa, 9)">runDeleteLead(Demosalesmanager, crmsfa, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Leaftaps_automation" title="com.leaftaps.ui.leads.testcases.EditLead" hash-for-method="runEditLead(Demosalesmanager, crmsfa, 99, TCS)">runEditLead(Demosalesmanager, crmsfa, 99, TCS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Leaftaps_automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Leaftaps_automation" class="panel Leaftaps_automation">
+          <div class="suite-Leaftaps_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.leaftaps.ui.leads.testcases.CreateLead</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runCreateLead(Demosalesmanager, crmsfa, TL, Hari, R)">
+                  </a> <!-- runCreateLead(Demosalesmanager, crmsfa, TL, Hari, R) -->
+                  <span class="method-name">runCreateLead</span>
+                  <span class="parameters">(Demosalesmanager, crmsfa, TL, Hari, R)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runCreateLead(DemoCSR, crmsfa, TL, Babu, M)">
+                  </a> <!-- runCreateLead(DemoCSR, crmsfa, TL, Babu, M) -->
+                  <span class="method-name">runCreateLead</span>
+                  <span class="parameters">(DemoCSR, crmsfa, TL, Babu, M)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Leaftaps_automation-class-passed -->
+          <div class="suite-Leaftaps_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.leaftaps.ui.leads.testcases.DeleteLead</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runDeleteLead(Demosalesmanager, crmsfa, 9)">
+                  </a> <!-- runDeleteLead(Demosalesmanager, crmsfa, 9) -->
+                  <span class="method-name">runDeleteLead</span>
+                  <span class="parameters">(Demosalesmanager, crmsfa, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Leaftaps_automation-class-passed -->
+          <div class="suite-Leaftaps_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.leaftaps.ui.leads.testcases.EditLead</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runEditLead(Demosalesmanager, crmsfa, 99, TCS)">
+                  </a> <!-- runEditLead(Demosalesmanager, crmsfa, 99, TCS) -->
+                  <span class="method-name">runEditLead</span>
+                  <span class="parameters">(Demosalesmanager, crmsfa, 99, TCS)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Leaftaps_automation-class-passed -->
+        </div> <!-- panel Leaftaps_automation -->
+        <div panel-name="test-xml-Leaftaps_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\TeatLeaf\PageObjectModelStruct2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot; name=&quot;Leaftaps automation&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;5&quot; name=&quot;CreateLead Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://leaftaps.com/opentaps/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.leaftaps.ui.leads.testcases.CreateLead&quot;/&gt;
+      &lt;class name=&quot;com.leaftaps.ui.leads.testcases.DeleteLead&quot;/&gt;
+      &lt;class name=&quot;com.leaftaps.ui.leads.testcases.EditLead&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CreateLead Test --&gt;
+&lt;/suite&gt; &lt;!-- Leaftaps automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Leaftaps_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Leaftaps automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CreateLead Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Leaftaps_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Leaftaps automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Leaftaps_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Leaftaps automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Leaftaps_automation');
+function tableData_Leaftaps_automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runEditLead')
+data.setCell(0, 2, 'com.leaftaps.ui.leads.testcases.EditLead')
+data.setCell(0, 3, 17479);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runDeleteLead')
+data.setCell(1, 2, 'com.leaftaps.ui.leads.testcases.DeleteLead')
+data.setCell(1, 3, 15153);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runCreateLead')
+data.setCell(2, 2, 'com.leaftaps.ui.leads.testcases.CreateLead')
+data.setCell(2, 3, 13833);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runCreateLead')
+data.setCell(3, 2, 'com.leaftaps.ui.leads.testcases.CreateLead')
+data.setCell(3, 3, 12040);
+window.suiteTableData['Leaftaps_automation']= { tableData: data, tableDiv: 'times-div-Leaftaps_automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <div id="times-div-Leaftaps_automation">
+              </div> <!-- times-div-Leaftaps_automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Leaftaps_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Leaftaps automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Leaftaps_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Leaftaps_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.leaftaps.ui.leads.testcases.CreateLead</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.leaftaps.ui.leads.testcases.DeleteLead</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setData</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.leaftaps.ui.leads.testcases.EditLead</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setData</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.leaftaps.ui.leads.testcases.CreateLead</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(http://leaftaps.com/opentaps/, chrome)</span>
+                <span class="method-start">3443 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runCreateLead(Demosalesmanager, crmsfa, TL, Hari, R)</span>
+                <span class="method-start">19247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">33098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(http://leaftaps.com/opentaps/, chrome)</span>
+                <span class="method-start">35612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runCreateLead(DemoCSR, crmsfa, TL, Babu, M)</span>
+                <span class="method-start">40877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">52919 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.leaftaps.ui.leads.testcases.DeleteLead</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(http://leaftaps.com/opentaps/, chrome)</span>
+                <span class="method-start">55702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runDeleteLead(Demosalesmanager, crmsfa, 9)</span>
+                <span class="method-start">62026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">77182 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.leaftaps.ui.leads.testcases.EditLead</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(http://leaftaps.com/opentaps/, chrome)</span>
+                <span class="method-start">79893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runEditLead(Demosalesmanager, crmsfa, 99, TCS)</span>
+                <span class="method-start">88818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">106299 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
