@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="329558" started-at="2022-09-28T02:40:46 PDT" finished-at="2022-09-28T02:46:15 PDT">
+    <groups>
+    </groups>
+    <test name="chrome test" duration-ms="186240" started-at="2022-09-28T02:40:46 PDT" finished-at="2022-09-28T02:43:52 PDT">
+      <class name="com.servicenow.ui.testcases.CreateIncident">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.servicenow.ui.testcases.CreateIncident@43d7741f]" name="setData" is-config="true" duration-ms="29" started-at="2022-09-28T02:40:46 PDT" finished-at="2022-09-28T02:40:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.servicenow.ui.testcases.CreateIncident@43d7741f]" name="beforeMethod" is-config="true" duration-ms="59469" started-at="2022-09-28T02:40:47 PDT" finished-at="2022-09-28T02:41:46 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dev108973.service-now.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.servicenow.ui.testcases.CreateIncident@43d7741f]" name="runCreateLead" duration-ms="124833" started-at="2022-09-28T02:41:46 PDT" data-provider="sendData" finished-at="2022-09-28T02:43:51 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tleaf@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Created via Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.servicenow.ui.testcases.CreateIncident@43d7741f]" name="afterMethod" is-config="true" duration-ms="531" started-at="2022-09-28T02:43:51 PDT" finished-at="2022-09-28T02:43:52 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.servicenow.ui.testcases.CreateIncident -->
+    </test> <!-- chrome test -->
+    <test name="mozilla test" duration-ms="142885" started-at="2022-09-28T02:43:52 PDT" finished-at="2022-09-28T02:46:15 PDT">
+      <class name="com.servicenow.ui.testcases.DeleteIncident">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.servicenow.ui.testcases.DeleteIncident@12028586]" name="setData" is-config="true" duration-ms="0" started-at="2022-09-28T02:43:52 PDT" finished-at="2022-09-28T02:43:52 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.servicenow.ui.testcases.DeleteIncident@12028586]" name="beforeMethod" is-config="true" duration-ms="30701" started-at="2022-09-28T02:43:53 PDT" finished-at="2022-09-28T02:44:24 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dev108973.service-now.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runDeleteLead(java.lang.String,java.lang.String)[pri:0, instance:com.servicenow.ui.testcases.DeleteIncident@12028586]" name="runDeleteLead" duration-ms="109196" started-at="2022-09-28T02:44:24 PDT" data-provider="sendData" finished-at="2022-09-28T02:46:13 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tleaf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.servicenow.ui.testcases.DeleteIncident@12028586]" name="afterMethod" is-config="true" duration-ms="2258" started-at="2022-09-28T02:46:13 PDT" finished-at="2022-09-28T02:46:15 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.servicenow.ui.testcases.DeleteIncident -->
+      <class name="com.servicenow.ui.testcases.EditIncident">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.servicenow.ui.testcases.EditIncident@290dbf45]" name="setData" is-config="true" duration-ms="1" started-at="2022-09-28T02:43:52 PDT" finished-at="2022-09-28T02:43:52 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.servicenow.ui.testcases.EditIncident@290dbf45]" name="beforeMethod" is-config="true" duration-ms="34076" started-at="2022-09-28T02:43:53 PDT" finished-at="2022-09-28T02:44:27 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dev108973.service-now.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runEditLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.servicenow.ui.testcases.EditIncident@290dbf45]" name="runEditLead" duration-ms="87807" started-at="2022-09-28T02:44:27 PDT" data-provider="sendData" finished-at="2022-09-28T02:45:55 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tleaf@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Edited via automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.servicenow.ui.testcases.EditIncident@290dbf45]" name="afterMethod" is-config="true" duration-ms="9179" started-at="2022-09-28T02:45:55 PDT" finished-at="2022-09-28T02:46:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.servicenow.ui.testcases.EditIncident -->
+    </test> <!-- mozilla test -->
+  </suite> <!-- Suite -->
+</testng-results>
