@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Leaftaps automation" verbose="5">
+	<test thread-count="5" name="CreateLead Test">
+		<classes>
+			<class name="com.leaftaps.ui.leads.testcases.CreateLead" />
+			<class name="com.leaftaps.ui.leads.testcases.DeleteLead" />
+			<class name="com.leaftaps.ui.leads.testcases.EditLead" />
+		</classes>
+	</test> <!-- CreateLead Test -->
+</suite> <!-- Leaftaps automation -->

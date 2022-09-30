@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Leaftaps automation]">
+  <test thread-count="5" verbose="5" name="CreateLead Test(failed)">
+    <classes>
+      <class name="com.leaftaps.ui.leads.testcases.EditLead">
+        <methods>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="runEditLead" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.leaftaps.ui.leads.testcases.EditLead -->
+      <class name="com.leaftaps.ui.leads.testcases.CreateLead">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="runCreateLead" invocation-numbers="0 1"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.leaftaps.ui.leads.testcases.CreateLead -->
+      <class name="com.leaftaps.ui.leads.testcases.DeleteLead">
+        <methods>
+          <include name="runDeleteLead" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.leaftaps.ui.leads.testcases.DeleteLead -->
+    </classes>
+  </test> <!-- CreateLead Test(failed) -->
+</suite> <!-- Failed suite [Leaftaps automation] -->
